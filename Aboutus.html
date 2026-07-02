@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="about.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- navigationbar -->
+ <nav class="navbar">
+    <div class="logo1">SwapThrough</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Login</a></li>
+    </ul>
+</nav>
+
+<div class="bg-shape shape1"></div>
+<div class="bg-shape shape2"></div>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Who We Are</h1>
+        <p>
+        Swapthrough Impex Pvt. Ltd. is a Bengaluru-based export company founded with a clear vision: to introduce the richness of India’s handcrafted and natural products to global markets with transparency, care, and consistency. As a growing enterprise, we work closely with skilled artisans, weavers, small manufacturers, and reliable farms to curate products that represent genuine Indian craftsmanship and quality.
+        </p>
+        <br>
+        <p>
+            Our developing product portfolio includes jute products, carpets, leather goods, textiles, toys, handicrafts, and premium coffee beans. Each item is carefully sourced and reviewed to align with international quality expectations, ensuring dependable supply while preserving traditional techniques and natural integrity.
+        </p>
+    </div>
+</section>
+
+<section class="hidden">
+    <h2 class="section-title">What We Do..</h2>
+
+    <div class="story">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG7iATPW--Gf4RIw_mIUxA7voZwXQmvJACz1cwXwMZ-A&s=100" alt="story">
+
+        <div class="story-text">
+            <p>
+                Ethical sourcing and sustainability are central to our approach. We prioritize responsible production practices that support
+                artisan communities and environmentally conscious manufacturing, creating value for both producers and buyers.
+
+            <br>
+            <br>
+            <p>
+                In addition to product sourcing, Swapthrough Impex provides essential export support services, including custom sourcing, packaging coordination, 
+                and logistics assistance. This integrated approach helps international retailers, wholesalers, and distributors engage with Indian suppliers smoothly and efficiently.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="hidden">
+    <h2 class="section-title">Our Impact</h2>
+
+    <div class="stats">
+        <div class="stat-box">
+            <h2>5K+</h2>
+            <p>Customers</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>10+</h2>
+            <p>Years Experiance
+
+            </p>
+        </div>
+
+        <div class="stat-box">
+            <h2>65K+</h2>
+            <p>Orders Delivered</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>95%</h2>
+            <p>Positive Feedbacks</p>
+        </div>
+    </div>
+</section>
+
+<section class="hidden">
+    <h2 class="section-title">Our Vission And Mission</h2>
+
+    <div class="values-grid">
+
+        <div class="value-card">
+            <h3>OUR VISSION</h3>
+            <p>To become a globally respected brand for authentic Indian handcrafted and natural products by promoting sustainability, empowering artisan communities, and delivering consistent, world-class quality to international markets.</p>
+        </div>
+
+        <div class="value-card">
+            <h3>OUR MISSION</h3>
+            <p>To connect global buyers with ethically sourced, premium Indian products by working closely with skilled artisans, maintaining rigorous quality standards, and delivering transparent, reliable export solutions that build long-term value and trust.</p>
+        </div>
+
+
+    </div>
+</section>
+
+
+<div style="padding-top: 20px;">
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Contact Us -->
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>📍 
+
+No. 69/458/69, 10th Floor, RMZ Latitude, Bellary Road, Hebbal — Near Godrej Apartments, Bengaluru 560024, Karnataka, India.
+</p>
+            <p>📞 +91 6366177997</p>
+            <p>✉ Support@swapthrough.com</p>
+            <p>🕒 Mon - Sat: 9:00 AM - 6:00 PM</p>
+        </div>
+
+        <!-- Information -->
+        <div class="footer-column">
+            <h3>Information</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <!-- Products -->
+        <div class="footer-column">
+            <h3>Products</h3>
+            <ul>
+                <li><a href="#">Jute Produts</a></li>
+                <li><a href="#">Leather Products</a></li>
+                <li><a href="#">Wooden Toys</a></li>
+                <li><a href="#">Carprts And Ruggs</a></li>
+                <li><a href="#">Textiles</a></li>
+            </ul>
+        </div>
+
+        <!-- Map -->
+        <div class="footer-column map-column">
+            <h3>Our Location</h3>
+            <iframe
+                src="https://maps.google.com/maps?q=Bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        Copyright © 2025 Swapthrough Impex All Rights Reserved | Website Design & Developed by Preetam N
+    </div>
+
+</footer>
+</div>
+
+<script>
+const observer = new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+    });
+},{
+    threshold:0.15
+});
+
+document.querySelectorAll('.hidden').forEach(el=>{
+    observer.observe(el);
+});
+</script>
+
+</body>
+
+</html>

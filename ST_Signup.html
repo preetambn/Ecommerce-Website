@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>SignUp_Swapthrough</title>
+    <link rel='stylesheet' href=' signup.css'>
+</head>
+<body>
+<!-- navigationbar -->
+ <nav class="navbar">
+    <div class="logo1">SwapThrough</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="Aboutus.html">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</nav>
+
+<!-- ==============================SIGNUP__________FORM---------------- -->
+<div class="container">
+
+<div class="signup-card">
+
+    <div class="header">
+        <h1>🛒 Create Your Account</h1>
+        <p>Join thousands of shoppers and start discovering amazing products.</p>
+    </div>
+
+    <div class="form-content">
+
+        <form id="signupForm" autocomplete="off">
+
+            <!-- PERSONAL INFORMATION -->
+            <div class="section">
+                <h2 class="section-title">Personal Information</h2>
+
+                <div class="grid">
+                    <div class="input-group">
+                        <label>First Name</label>
+                        <input type="text" maxlength="18" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Last Name</label>
+                        <input type="text" maxlength="18" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Phone Number</label>
+                        <input type="tel" id="phone" maxlength="10" minlength="10" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Date of Birth</label>
+                        <input type="date" maxlength="11/06/20011">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Gender</label>
+                        <select>
+                            <option>Select</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Prefer not to say</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ACCOUNT -->
+            <div class="section">
+                <h2 class="section-title">Account Security</h2>
+
+                <div class="grid">
+
+                    <div class="input-group">
+                        <label>Username</label>
+                        <input 
+                            type="text"
+                            id="username"
+                            name="username"
+                            autocomplete="off"
+                            required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Password</label>
+                        <input type="password" id="password" autocomplete="off" required>
+
+                        <div class="password-strength">
+                            <div class="strength-fill" id="strength"></div>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Confirm Password</label>
+                        <input type="password" id="confirmPassword" required>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+
+            
+
+            <!-- TERMS -->
+            <div class="section">
+                <div class="checkbox-item">
+                    <input type="checkbox" required>
+                    <label>
+                        I agree to the Terms & Conditions and Privacy Policy
+                    </label>
+                </div>
+            </div>
+
+            <button class="submit-btn" type="submit">
+                Create My Account
+            </button>
+
+            <div class="login-link">
+                Already have an account?
+                <a href="#">Sign In</a>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+</div>
+
+
+
+
+<!-- ---------------------END OF FORM---------------------- -->
+
+<div style="padding-top: 20px;">
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Contact Us -->
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>📍 
+
+No. 69/458/69, 10th Floor, RMZ Latitude, Bellary Road, Hebbal — Near Godrej Apartments, Bengaluru 560024, Karnataka, India.
+</p>
+            <p>📞 +91 6366177997</p>
+            <p>✉ Support@swapthrough.com</p>
+            <p>🕒 Mon - Sat: 9:00 AM - 6:00 PM</p>
+        </div>
+
+        <!-- Information -->
+        <div class="footer-column">
+            <h3>Information</h3>
+            <ul>
+                <li><a href="Aboutus.html">About Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <!-- Products -->
+        <div class="footer-column">
+            <h3>Products</h3>
+            <ul>
+                <li><a href="#">Jute Produts</a></li>
+                <li><a href="#">Leather Products</a></li>
+                <li><a href="#">Wooden Toys</a></li>
+                <li><a href="#">Carprts And Ruggs</a></li>
+                <li><a href="#">Textiles</a></li>
+            </ul>
+        </div>
+
+        <!-- Map -->
+        <div class="footer-column map-column">
+            <h3>Our Location</h3>
+            <iframe
+                src="https://maps.google.com/maps?q=Bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        Copyright © 2025 Swapthrough Impex All Rights Reserved | Website Design & Developed by Preetam N
+    </div>
+
+</footer>
+</div>
+<script src="signupvalid.js"></script>
+</body>
+</html>
